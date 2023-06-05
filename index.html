@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- linke external files (css, js) -->
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- ---- -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="left-side">
+                <h1>Currency Converter</h1>
+                <hr class="line">
+                <form>
+                    <div class="input-controler">
+                        <label for="amount">Amount :</label>
+                        <input type="number" min="0" id="amount" >
+                    </div>
+                    <div class="input-controler">
+                        <label for="from-selection">From :</label>
+                        <select name="from-selection" id="from-selection">
+                            <option value="test">test</option>
+                        </select>
+                    </div>
+                    <div class="input-controler">
+                        <label for="to-selection">To :</label>
+                        <select name="to-selection" id="to-selection">
+                            <option value="test">test</option>
+                        </select>
+                    </div>
+                    <button type="submit">Convert</button>
+                </form>
+                <hr class="line">
+                <div class="result-container">
+                    <div class="input-controler">
+                        <label for="result-feild">Result :</label>
+                        <input type="text" id="result-feild" disabled>
+                    </div>
+                    <div class="input-controler">
+                        <label  for="rateUsed-feild"><a href="#">Rate Used</a></label>
+                        <input type="text" id="rateUsed-feild" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="rigth-side">
+                <img src="./assets/business.svg" alt="bank" width="160px" height="160px">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
